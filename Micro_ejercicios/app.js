@@ -8,3 +8,10 @@ function printMyFrase(element){
 }
 
 printMyFrase(myFrase)
+
+function showMyCalculation(num1,num2) {
+    num1 = 3
+    num2 = 5
+    return num1+num2
+}
+printMyFrase(showMyCalculation()) 
